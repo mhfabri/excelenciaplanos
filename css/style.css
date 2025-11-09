@@ -1,0 +1,170 @@
+body {
+    background-color: rgb(223, 228, 223);
+    color: white;
+}
+
+.navbar-nav .nav-link {
+    color: black;
+}
+
+.nav-link:hover {
+    color: #bebebe;
+    transition: all 0.3s ease-in-out;
+}
+
+.card{
+    padding: 10px;
+}
+
+.logo{
+    width: 5rem;
+}
+
+nav{
+    background-color:  #234146d5;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#sobre{
+    margin-top: 100px;
+    scroll-margin-top: 150px;
+}
+
+#mission{
+    scroll-margin-top: 150px;
+}
+
+.content{
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.dono{
+    width: 15rem;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+
+.logo2{
+    width: 20rem;
+}
+
+.marginauto{
+    margin: auto;
+}
+
+
+
+.title{
+    color: #234146;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-shadow: 5px 5px 10px #234146;
+    animation: pulsar 2s infinite;
+}
+
+.title2{
+    color: #B96647;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-shadow: 5px 5px 10px #B96647;
+    animation: pulsar 2s infinite;
+}
+
+@keyframes pulsar {
+  0% {
+    transform: scale(0.8);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.8);
+  }
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    
+}
+
+.sobre{
+    background-color: rgb(210, 230, 210);
+    border-radius: 30px;
+    /* border: 1px solid #234146; */
+    box-shadow: 5px 2px 30px #234146;
+
+}
+
+.titlesobre{
+    color:  rgb(78, 105, 98);
+    font-size: 2.5rem;
+}
+
+.conteudo{
+    color: #000;
+}
+
+.mission{
+    background-color: rgb(210, 230, 210);
+    border-radius: 30px;
+    /* border: 1px solid #234146; */
+    box-shadow: 5px 2px 30px #234146;
+}
+
+.textmission{
+    color: #000;
+}
+
+.imgmission{
+    width: 20%;
+}
+
+li{
+    list-style: none;
+}
+
+.convenios{
+    background-color: rgb(210, 230, 210);
+    border-radius: 30px;
+    /* border: 1px solid #234146; */
+    box-shadow: 5px 2px 30px #234146;
+    
+}
+
+.btn-custom{
+    color: white;
+    background-color: red;
+    transition: ease-in-out 0.3s;
+}
+
+.btn-custom:hover{
+    color: white;
+    background-color: rgb(255, 93, 93);
+    transition: ease-in-out 0.3s;
+}
+
+.btn-contact{
+    background-color: rgb(89, 89, 247);
+    color: white;
+}
+
+.btn-contact:hover{
+    background-color: rgb(40, 40, 153);
+    color: white;
+}
+
+.convenios{
+    padding-bottom: 10px;
+}
+
