@@ -124,14 +124,24 @@ nav{
 
 .textmission{
     color: #000;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.divimgmission{
+    margin: auto;
 }
 
 .imgmission{
     width: 20%;
+    /* margin: auto; */
 }
 
-li{
+ul{
     list-style: none;
+    text-align: center;
 }
 
 .convenios{
@@ -165,6 +175,103 @@ li{
 }
 
 .convenios{
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
+.card{
+    height: 500px;
+    text-align: center;
+    padding: 20px;
+}
+
+.btnmodal{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.carousel-control-prev, .carousel-control-next {
+    filter: invert(1);
+}
+
+#convenios{
+    scroll-margin-top: 150px;
+}
+
+.contato{
+    background-color: rgb(210, 230, 210);
+    border-radius: 30px;
+    /* border: 1px solid #234146; */
+    box-shadow: 5px 2px 30px #234146;
+    color: black;
+    padding: 10px;
+}
+
+.subtitle{
+    color:  rgb(78, 105, 98);
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.content-contact{
+    display: flex;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+.content-contact:hover{
+    color: #555555;
+    transition: all 0.3s ease-in-out;
+}
+
+.btncopy{
+    background-color: rgb(89, 89, 247);
+    color: white;
+    text-align: center;
+}
+
+.btncopy:hover{
+    background-color: rgb(40, 40, 153);
+    color: white;
+}
+
+.emailft{
+    width: 20px;
+    margin-right: 5px;
+    margin-bottom: 3px;
+}
+
+.whatsappft{
+    width: 20px;
+    margin-right: 5px;
+    margin-bottom: 3px;
+}
+
+.enderecoft{
+    width: 15px;
+    margin-right: 5px;
+    margin-bottom: 3px;
+    filter: invert(1);
+}
+
+.telefoneft{
+    width: 15px;
+    margin-right: 5px;
+    margin-bottom: 3px;
+}
+
+.footer{
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(35, 65, 70, 0.5);
+    margin-bottom: 20px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: rgb(35, 65, 70, 0.7);
+    font-weight: bold;
+}
